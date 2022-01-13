@@ -1,0 +1,12 @@
+stringWithoutQuotes: 1
+stringWithQuotes: "1"
+stringBreak: |
+  banana
+  maca
+  pera
+stringNoBreak: > #tem uma foto explicando as diferença
+  banana
+  maca
+  pera
+stringLogic: "Yes" # sem os parentes vai resultar em verdadeiro
+stringEspecial: "[Account] & {cards}" #para carácter especial precisa dos parentes
