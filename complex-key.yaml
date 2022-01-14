@@ -1,0 +1,11 @@
+# complex key comeca com ? e termina com :
+
+? This key have
+  multiples lines
+: here is single string
+? - Development
+  - UAT
+  - This all string for json
+: - http://
+  - here is single array for json
+  - json

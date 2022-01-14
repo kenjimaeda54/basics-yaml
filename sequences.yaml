@@ -1,0 +1,23 @@
+applications: # array
+  - Cards
+  - Loren
+  - Desktop
+departments: # array
+  - Marketing
+  - Studio
+  - Development
+locations: [Canada, Franca, Japa] # array
+products: # array dentro de array
+  - Development:
+      - Software
+      - Dev Ops
+  - Studio:
+      - Content
+      - YouTube
+profession: # array de objetos
+  - name: Ricardo kenji
+    id: 3
+    department: development
+  - name: Rafael Kioji
+    id: 4
+    department: engineer

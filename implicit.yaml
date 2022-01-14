@@ -1,0 +1,5 @@
+YAML is superset of json: !!bool true #!! estou forcando a tipagem
+Pluto is a planet: !!bool false
+positive-float: !!float 16 #vai ser interpretado pelo json como 16.0
+key with null value: !!null null
+sampleNumString: !!str 8.14

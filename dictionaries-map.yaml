@@ -1,0 +1,13 @@
+applications:
+  - cards:
+      name: Joao
+      technology: Python
+      team-size: 12
+  - accounts:
+      name: Eazy Acount
+      technology: Java
+      team-size: 30
+  - loans:
+      name: Mathues
+      technology: Ruby
+      team-size: 8

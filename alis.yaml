@@ -1,0 +1,23 @@
+# & util para determinar alias
+# * com essa palavra reservada eu recupero o alias
+
+definitions:
+  days:
+    - weekday: &working # daqui
+        makeup: 6:00
+        actives:
+          - workout
+          - meetings
+          - sleep
+        sleeptime: 10:00 pm # ate aqui,porque e aonde terminada o array weekday
+    - weekend:
+        makeup: any hours
+        actives: don't have, i am free
+
+schedules:
+  days:
+    weekdays:
+      - Monday: *working #serao inseridos aqui
+      - Tuesday: *working
+      - Thursday: *working
+      - Friday: *working

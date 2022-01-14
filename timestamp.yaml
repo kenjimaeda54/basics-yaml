@@ -1,0 +1,7 @@
+# Date e Time representation using string
+canonical_string: 2001-12-15T02:59:43.1Z
+no time zone (Z)_string: 2001-12-15 2:59:43.10
+
+# Date & Time representation using timpestamp
+canonical: !!timestamp 2001-12-15T02:59:43.1Z # Se colocar !! ele vai obrigar a respeitar o formato time zone
+date: !!timestamp 2002-12-14
