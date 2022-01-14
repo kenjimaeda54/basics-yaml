@@ -1,0 +1,21 @@
+# document em yaml comeca com --- e termina com ...
+# voce consegue fazer multi documentos em um,mas ao converter em json ele nao vai entender
+# porque json nao possui esse recurso
+
+---
+applications:
+  - cards:
+      name: Ricardo
+      technology: Web
+  - accounts:
+      - Java
+      - Javascript
+      - Python
+---
+applications:
+  - cards:
+    name: Pedro
+    technology: Dev OPs
+  - accounts:
+      - Git CLI
+      - Linux

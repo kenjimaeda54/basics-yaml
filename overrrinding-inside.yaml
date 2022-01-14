@@ -1,0 +1,22 @@
+definitions:
+  days:
+    - weekday: &working
+        makeup: 6:00
+        actives:
+          - workout
+          - meetings
+          - sleep
+        sleeptime: 10:00 pm
+    - weekend:
+        makeup: any hours
+        actives: don't have, i am free
+
+schedules:
+  days:
+    weekdays:
+      - Monday: *working #serao inseridos aqui
+      - Tuesday: *working
+      - Thursday: *working
+      - Friday:
+        <<: *working #precisa ser assim apara ele entender a mudanca
+        sleeptime: 12:00 pm #peguei o valor e fiz um override antes era 10 agora vai ser 12
